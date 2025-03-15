@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniro - Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="ai.css" />
+  </head>
+  <body>
+    <div class="shop">
+      <header class="main-header">
+        <div class="header-container">
+          <div class="logo-container">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/05944335d4c8ea27735c375aa3816d3f0f03f0b176bd0909049a018400cd773a?placeholderIfAbsent=true"
+              alt="Furniro logo"
+              class="logo-image"
+            />
+            <h1 class="logo-text">Furniro</h1>
+          </div>
+
+          <nav class="main-navigation">
+            <ul class="nav-links">
+              <li><a href="#" class="nav-link">Home</a></li>
+              <li><a href="#" class="nav-link">Shop</a></li>
+              <li><a href="#" class="nav-link">About</a></li>
+              <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="header-icons">
+            <a href="#" class="icon-link"
+              ><img
+                src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/6a5848d5f6e28823f3fc136a428658c4fe2117f149ee365ed24f0d4c1b4208a4?placeholderIfAbsent=true"
+                alt="Account"
+                class="header-icon"
+            /></a>
+            <a href="#" class="icon-link"
+              ><img
+                src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/63a60027f2f0e2b1480cf66c791aa4c0a0fa3f7e04b1d3f31ea9d05b1f0cbb76?placeholderIfAbsent=true"
+                alt="Search"
+                class="header-icon"
+            /></a>
+            <a href="#" class="icon-link"
+              ><img
+                src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/e3a0831782ec950e39249817d5fcd7c7e6e7fdf14bc6231efe44f76b65f480c7?placeholderIfAbsent=true"
+                alt="Favorites"
+                class="header-icon"
+            /></a>
+            <a href="#" class="icon-link"
+              ><img
+                src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/02fab524adbc0c5498400f3694aefdc5a484ac817abc2ae8ff82764a4027e528?placeholderIfAbsent=true"
+                alt="Cart"
+                class="header-icon"
+            /></a>
+          </div>
+        </div>
+      </header>
+
+      <section class="hero-banner">
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/526c6d0ee53fa6ff76258edc427eaac65d8feb642db842e22e6181a6fddd2b7b?placeholderIfAbsent=true"
+          alt="Shop banner"
+          class="hero-image"
+        />
+        <div class="hero-content">
+          <h2 class="hero-title">Shop</h2>
+          <div class="breadcrumbs">
+            <a href="#" class="breadcrumb-link">Home</a>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/db13939cabd153a09de09c25864d1f622bda5d116dbe6552d6605aca283c27a4?placeholderIfAbsent=true"
+              alt="Breadcrumb separator"
+              class="breadcrumb-separator"
+            />
+            <span class="breadcrumb-current">Shop</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="filter-section">
+        <div class="filter-controls">
+          <div class="filter-button">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/421bd1834fd7ccfbda15bc8b0b391b81e04f7d600e9ac72c6b244f48b96ee786?placeholderIfAbsent=true"
+              alt="Filter icon"
+              class="filter-icon"
+            />
+            <span>Filter</span>
+          </div>
+          <div class="view-options">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/198f44bbb0b595974ccfd55e57810090e0323758f52d9efdc5e715531fd58be7?placeholderIfAbsent=true"
+              alt="Grid view"
+              class="view-icon"
+            />
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/a155f592a627e635322117912e0d640704bcf03fc3e00020b82570d141909f48?placeholderIfAbsent=true"
+              alt="List view"
+              class="view-icon"
+            />
+            <div class="view-separator"></div>
+            <p class="results-count">Showing 1–16 of 32 results</p>
+          </div>
+        </div>
+        <div class="sort-controls">
+          <span class="sort-label">Show</span>
+          <div class="sort-value">16</div>
+          <span class="sort-label">Short by</span>
+          <div class="sort-default">Default</div>
+        </div>
+      </section>
+
+      <main class="products-container">
+        <div class="products-wrapper">
+          <div class="products-grid">
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/e98631ae2f66dffb40e81f4ed9492e0d8a842811cfb6ddc4d156a5f63e9f3f2e?placeholderIfAbsent=true"
+                  alt="Syltherine"
+                  class="product-image"
+                />
+                <span class="discount-tag">-30%</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Syltherine</h3>
+                <p class="product-description">Stylish cafe chair</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 2.500.000</span>
+                  <span class="original-price">Rp 3.500.000</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card product-card-hover">
+              <div class="product-overlay">
+                <div class="product-image-container">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/fbe3154f8a774dfb24ed753b8bcead165866d2889fb3b7bb928f50dcefc449e1?placeholderIfAbsent=true"
+                    alt="Leviosa"
+                    class="product-image"
+                  />
+                  <div class="product-actions">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/c1f9ed36df6977e99fac5da6a611ba3c611c07a835476320dca53461322dd9f2?placeholderIfAbsent=true"
+                      alt="Overlay"
+                      class="overlay-image"
+                    />
+                    <div class="action-buttons">
+                      <button class="add-to-cart-btn">Add to cart</button>
+                      <div class="secondary-actions">
+                        <div class="action-item">
+                          <img
+                            src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/4acd6c31e158a04fe762df5c57a53cf783b11e22096cacd7a105cc33290d9a54?placeholderIfAbsent=true"
+                            alt="Share icon"
+                            class="action-icon"
+                          />
+                          <span class="action-text">Share</span>
+                        </div>
+                        <div class="action-item">
+                          <img
+                            src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/ec4b8a99ef25c98438205b8a333f77a915d70e1edf1db27cf311f88a617c92cd?placeholderIfAbsent=true"
+                            alt="Compare icon"
+                            class="action-icon"
+                          />
+                          <span class="action-text">Compare</span>
+                        </div>
+                        <div class="action-item">
+                          <img
+                            src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/72a703eeab5badffd2221b2339458be82ea8364ca6de909de5deee859079d211?placeholderIfAbsent=true"
+                            alt="Like icon"
+                            class="action-icon"
+                          />
+                          <span class="action-text">Like</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-name">Leviosa</h3>
+                  <p class="product-description">Stylish cafe chair</p>
+                  <span class="current-price">Rp 2.500.000</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/fbe3154f8a774dfb24ed753b8bcead165866d2889fb3b7bb928f50dcefc449e1?placeholderIfAbsent=true"
+                  alt="Lolito"
+                  class="product-image"
+                />
+                <span class="discount-tag discount-tag-50">-50%</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Lolito</h3>
+                <p class="product-description">Luxury big sofa</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 7.000.000</span>
+                  <span class="original-price">Rp 14.000.000</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/00b059d80057ee55fde92459d54a41dbefb1617462a2c493d350949b6e308f86?placeholderIfAbsent=true"
+                  alt="Respira"
+                  class="product-image"
+                />
+                <span class="new-tag">New</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Respira</h3>
+                <p class="product-description">Outdoor bar table and stool</p>
+                <span class="current-price">Rp 500.000</span>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/e98631ae2f66dffb40e81f4ed9492e0d8a842811cfb6ddc4d156a5f63e9f3f2e?placeholderIfAbsent=true"
+                  alt="Syltherine"
+                  class="product-image"
+                />
+                <span class="discount-tag">-30%</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Syltherine</h3>
+                <p class="product-description">Stylish cafe chair</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 2.500.000</span>
+                  <span class="original-price">Rp 3.500.000</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/fbe3154f8a774dfb24ed753b8bcead165866d2889fb3b7bb928f50dcefc449e1?placeholderIfAbsent=true"
+                  alt="Leviosa"
+                  class="product-image"
+                />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/c1f9ed36df6977e99fac5da6a611ba3c611c07a835476320dca53461322dd9f2?placeholderIfAbsent=true"
+                  alt="Hover effect"
+                  class="hover-image"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Leviosa</h3>
+                <p class="product-description">Stylish cafe chair</p>
+                <span class="current-price">Rp 2.500.000</span>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/fbe3154f8a774dfb24ed753b8bcead165866d2889fb3b7bb928f50dcefc449e1?placeholderIfAbsent=true"
+                  alt="Lolito"
+                  class="product-image"
+                />
+                <span class="discount-tag discount-tag-50">-50%</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Lolito</h3>
+                <p class="product-description">Luxury big sofa</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 7.000.000</span>
+                  <span class="original-price">Rp 14.000.000</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/00b059d80057ee55fde92459d54a41dbefb1617462a2c493d350949b6e308f86?placeholderIfAbsent=true"
+                  alt="Respira"
+                  class="product-image"
+                />
+                <span class="new-tag">New</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Respira</h3>
+                <p class="product-description">Outdoor bar table and stool</p>
+                <span class="current-price">Rp 500.000</span>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/e98631ae2f66dffb40e81f4ed9492e0d8a842811cfb6ddc4d156a5f63e9f3f2e?placeholderIfAbsent=true"
+                  alt="Syltherine"
+                  class="product-image"
+                />
+                <span class="discount-tag">-30%</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Syltherine</h3>
+                <p class="product-description">Stylish cafe chair</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 2.500.000</span>
+                  <span class="original-price">Rp 3.500.000</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/fbe3154f8a774dfb24ed753b8bcead165866d2889fb3b7bb928f50dcefc449e1?placeholderIfAbsent=true"
+                  alt="Leviosa"
+                  class="product-image"
+                />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/c1f9ed36df6977e99fac5da6a611ba3c611c07a835476320dca53461322dd9f2?placeholderIfAbsent=true"
+                  alt="Hover effect"
+                  class="hover-image"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Leviosa</h3>
+                <p class="product-description">Stylish cafe chair</p>
+                <span class="current-price">Rp 2.500.000</span>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/fbe3154f8a774dfb24ed753b8bcead165866d2889fb3b7bb928f50dcefc449e1?placeholderIfAbsent=true"
+                  alt="Lolito"
+                  class="product-image"
+                />
+                <span class="discount-tag discount-tag-50">-50%</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Lolito</h3>
+                <p class="product-description">Luxury big sofa</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 7.000.000</span>
+                  <span class="original-price">Rp 14.000.000</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/00b059d80057ee55fde92459d54a41dbefb1617462a2c493d350949b6e308f86?placeholderIfAbsent=true"
+                  alt="Respira"
+                  class="product-image"
+                />
+                <span class="new-tag">New</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Respira</h3>
+                <p class="product-description">Outdoor bar table and stool</p>
+                <span class="current-price">Rp 500.000</span>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/e98631ae2f66dffb40e81f4ed9492e0d8a842811cfb6ddc4d156a5f63e9f3f2e?placeholderIfAbsent=true"
+                  alt="Syltherine"
+                  class="product-image"
+                />
+                <span class="discount-tag">-30%</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Syltherine</h3>
+                <p class="product-description">Stylish cafe chair</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 2.500.000</span>
+                  <span class="original-price">Rp 3.500.000</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/fbe3154f8a774dfb24ed753b8bcead165866d2889fb3b7bb928f50dcefc449e1?placeholderIfAbsent=true"
+                  alt="Leviosa"
+                  class="product-image"
+                />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/c1f9ed36df6977e99fac5da6a611ba3c611c07a835476320dca53461322dd9f2?placeholderIfAbsent=true"
+                  alt="Hover effect"
+                  class="hover-image"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Leviosa</h3>
+                <p class="product-description">Stylish cafe chair</p>
+                <span class="current-price">Rp 2.500.000</span>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/fbe3154f8a774dfb24ed753b8bcead165866d2889fb3b7bb928f50dcefc449e1?placeholderIfAbsent=true"
+                  alt="Lolito"
+                  class="product-image"
+                />
+                <span class="discount-tag discount-tag-50">-50%</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Lolito</h3>
+                <p class="product-description">Luxury big sofa</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 7.000.000</span>
+                  <span class="original-price">Rp 14.000.000</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/00b059d80057ee55fde92459d54a41dbefb1617462a2c493d350949b6e308f86?placeholderIfAbsent=true"
+                  alt="Respira"
+                  class="product-image"
+                />
+                <span class="new-tag">New</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Respira</h3>
+                <p class="product-description">Outdoor bar table and stool</p>
+                <span class="current-price">Rp 500.000</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="pagination">
+            <div class="page-item page-active"><span>1</span></div>
+            <div class="page-item"><span>2</span></div>
+            <div class="page-item"><span>3</span></div>
+            <div class="page-item page-next"><span>Next</span></div>
+          </div>
+        </div>
+      </main>
+
+      <section class="features-section">
+        <div class="features-container">
+          <div class="feature-item">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/d114e200a4fcb5042d0489f99c0c35bff1a1f5c695307704fd1b9a294a8c409a?placeholderIfAbsent=true"
+              alt="High Quality"
+              class="feature-icon"
+            />
+            <div class="feature-content">
+              <h3 class="feature-title">High Quality</h3>
+              <p class="feature-description">crafted from top materials</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/f0e5adcb732645b99a07d98dd31a01a9fc18e727e25c431fd29473b08e071a10?placeholderIfAbsent=true"
+              alt="Warranty"
+              class="feature-icon"
+            />
+            <div class="feature-content">
+              <h3 class="feature-title">Warranty Protection</h3>
+              <p class="feature-description">Over 2 years</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/4d107a866d8a3399d26719708fb386a662cf146fe70ddf9e96fd103a0d37454d?placeholderIfAbsent=true"
+              alt="Shipping"
+              class="feature-icon"
+            />
+            <div class="feature-content">
+              <h3 class="feature-title">Free Shipping</h3>
+              <p class="feature-description">Order over 150 $</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/e4b2afeafd984af38a7df17d9dd1ff62/2408eb0bf21d78bf080bbee8a6442339d873b579d952656ff61dcd0bc99cdf5e?placeholderIfAbsent=true"
+              alt="Support"
+              class="feature-icon"
+            />
+            <div class="feature-content">
+              <h3 class="feature-title">24 / 7 Support</h3>
+              <p class="feature-description">Dedicated support</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="main-footer">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h2 class="footer-logo">Funiro.</h2>
+            <address class="footer-address">
+              400 University Drive Suite 200 Coral Gables,<br />
+              FL 33134 USA
+            </address>
+          </div>
+
+          <nav class="footer-links">
+            <h3 class="footer-heading">Links</h3>
+            <ul class="footer-nav">
+              <li><a href="#" class="footer-link">Home</a></li>
+              <li><a href="#" class="footer-link">Shop</a></li>
+              <li><a href="#" class="footer-link">About</a></li>
+              <li><a href="#" class="footer-link">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="footer-help">
+            <h3 class="footer-heading">Help</h3>
+            <ul class="footer-nav">
+              <li><a href="#" class="footer-link">Payment Options</a></li>
+              <li><a href="#" class="footer-link">Returns</a></li>
+              <li><a href="#" class="footer-link">Privacy Policies</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-newsletter">
+            <h3 class="footer-heading">Newsletter</h3>
+            <form class="newsletter-form">
+              <div class="form-group">
+                <label for="email" class="visually-hidden">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter Your Email Address"
+                  class="newsletter-input"
+                />
+              </div>
+              <button type="submit" class="newsletter-button">SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <p class="copyright">2023 furino. All rights reverved</p>
+      </footer>
+    </div>
+  </body>
+</html>
